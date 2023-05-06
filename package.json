@@ -1,0 +1,26 @@
+{
+  "name": "testeUI-facebook",
+  "version": "1.0.0",
+  "description": "Teste de Interface do Facebook com Cypress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --spec 'cypress/e2e/**/'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogocastros1/testeUI-facebook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diogocastros1/testeUI-facebook/issues"
+  },
+  "homepage": "https://github.com/diogocastros1/testeUI-facebook#readme",
+  "dependencies": {
+    "cypress": "^12.11.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.4.0"
+  }
+}
